@@ -1,0 +1,72 @@
+    1  ls
+    2  ls -a
+    3  mkdir git
+    4  ls
+    5  cd git
+    6  git init
+    7  git remote add oring https://github.com/SHarrigfeld/IT340002.git
+    8  cd ..
+    9  sudo find .-type f newermt 2020-2-19 | grep .txt
+   10  sudo find .-type f newermt 2020-02-19 | grep .txt
+   11  sudo find .-type f -newermt 2020-02-19 | grep .txt
+   12  sudo find / -type f -newermt 2020-02-19 | grep .txt
+   13  ls
+   14  mkdir Lab1
+   15  ls
+   16  cd git
+   17  mv ../answers.zip
+   18  cd ..
+   19  ls
+   20  cd git
+   21  mv ../answer.zip
+   22  mv ../answer.zip ./
+   23  ls
+   24  git commit -m "updated list"
+   25  git add -all
+   26  git add --all
+   27  git commit -m "updated list"
+   28  git push -u origin master
+   29  git push -u oring master
+   30  cd ..
+   31  sudo find / -type f -newermt 2020-02-19 | grep .txt
+   32  ls
+   33  sudo mv /var/www/html/project/intro10.txt ~/Lab1
+   34  cd Lab1
+   35  ls
+   36  cd ..
+   37  sudo mv /var/www/html/project/intro9.txt ~/Lab1
+   38  sudo mv /usr/local/lab/file2.txt ~/Lab1
+   39  sudo mv /etc/labsample/test3.txt ~/Lab1
+   40  sudo mv /etc/labsample/test1.txt ~/Lab1
+   41  sudo mv /etc/labsample/test8.txt ~/Lab1
+   42  sudo mv /etc/labsample/test7.txt ~/Lab1
+   43  sudo mv /media/sample/word5.txt ~/Lab1
+   44  sudo mv /media/sample/word6.txt ~/Lab1
+   45  sudo mv /media/sample/word4.txt ~/Lab1
+   46  cd Lab1
+   47  ls
+   48  cat test1.txt file2.txt test3.txt word4.txt word5.txt word6.txt test7.txt test8.txt intro9.txt intro10.txt > Labcat.txt
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd Lab1
+   53  ls
+   54  nano Labcat.txt
+   55  ls
+   56  history > history.txt
+   57  ls
+   58  nano history.txt
+   59  git add history.txt
+   60  mv ~/Lab1/history.txt ~/git
+   61  ls
+   62  cd ..
+   63  ls
+   64  cd git
+   65  ls
+   66  git add history.txt
+   67  cd ..
+   68  cd Lab1
+   69  cat Labcat.txt
+   70  cd ..
+   71  cd git
+   72  history > history.txt
